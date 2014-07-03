@@ -13,6 +13,11 @@
 		A972E70F19654B6400DF5154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A972E70D19654B6400DF5154 /* Main.storyboard */; };
 		A972E71119654B6400DF5154 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A972E71019654B6400DF5154 /* Images.xcassets */; };
 		A972E71D19654B6400DF5154 /* LiveRenderingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A972E71C19654B6400DF5154 /* LiveRenderingDemoTests.m */; };
+		A972E73019654B7A00DF5154 /* ArcViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A972E72F19654B7A00DF5154 /* ArcViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A972E73619654B7A00DF5154 /* ArcViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A972E72B19654B7A00DF5154 /* ArcViewFramework.framework */; };
+		A972E73D19654B7A00DF5154 /* ArcViewFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A972E73C19654B7A00DF5154 /* ArcViewFrameworkTests.m */; };
+		A972E74019654B7A00DF5154 /* ArcViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A972E72B19654B7A00DF5154 /* ArcViewFramework.framework */; };
+		A972E74119654B7A00DF5154 /* ArcViewFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A972E72B19654B7A00DF5154 /* ArcViewFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +28,49 @@
 			remoteGlobalIDString = A972E6FF19654B6400DF5154;
 			remoteInfo = LiveRenderingDemo;
 		};
+		A972E73719654B7A00DF5154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A972E6F819654B6400DF5154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A972E72A19654B7A00DF5154;
+			remoteInfo = ArcViewFramework;
+		};
+		A972E73E19654B7A00DF5154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A972E6F819654B6400DF5154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A972E72A19654B7A00DF5154;
+			remoteInfo = ArcViewFramework;
+		};
+		A972E74219654B7A00DF5154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A972E6F819654B6400DF5154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A972E72A19654B7A00DF5154;
+			remoteInfo = ArcViewFramework;
+		};
+		A972E74B19654B7B00DF5154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A972E6F819654B6400DF5154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A972E72A19654B7A00DF5154;
+			remoteInfo = ArcViewFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A972E74719654B7A00DF5154 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A972E74119654B7A00DF5154 /* ArcViewFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A972E70019654B6400DF5154 /* LiveRenderingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveRenderingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +85,12 @@
 		A972E71619654B6400DF5154 /* LiveRenderingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveRenderingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A972E71B19654B6400DF5154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A972E71C19654B6400DF5154 /* LiveRenderingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveRenderingDemoTests.m; sourceTree = "<group>"; };
+		A972E72B19654B7A00DF5154 /* ArcViewFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArcViewFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A972E72E19654B7A00DF5154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A972E72F19654B7A00DF5154 /* ArcViewFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcViewFramework.h; sourceTree = "<group>"; };
+		A972E73519654B7A00DF5154 /* ArcViewFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcViewFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A972E73B19654B7A00DF5154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A972E73C19654B7A00DF5154 /* ArcViewFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcViewFrameworkTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A972E74019654B7A00DF5154 /* ArcViewFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +106,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A972E72719654B7A00DF5154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A972E73219654B7A00DF5154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A972E73619654B7A00DF5154 /* ArcViewFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +132,8 @@
 			children = (
 				A972E70219654B6400DF5154 /* LiveRenderingDemo */,
 				A972E71919654B6400DF5154 /* LiveRenderingDemoTests */,
+				A972E72C19654B7A00DF5154 /* ArcViewFramework */,
+				A972E73919654B7A00DF5154 /* ArcViewFrameworkTests */,
 				A972E70119654B6400DF5154 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +143,8 @@
 			children = (
 				A972E70019654B6400DF5154 /* LiveRenderingDemo.app */,
 				A972E71619654B6400DF5154 /* LiveRenderingDemoTests.xctest */,
+				A972E72B19654B7A00DF5154 /* ArcViewFramework.framework */,
+				A972E73519654B7A00DF5154 /* ArcViewFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,7 +189,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A972E72C19654B7A00DF5154 /* ArcViewFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A972E72F19654B7A00DF5154 /* ArcViewFramework.h */,
+				A972E72D19654B7A00DF5154 /* Supporting Files */,
+			);
+			path = ArcViewFramework;
+			sourceTree = "<group>";
+		};
+		A972E72D19654B7A00DF5154 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A972E72E19654B7A00DF5154 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A972E73919654B7A00DF5154 /* ArcViewFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A972E73C19654B7A00DF5154 /* ArcViewFrameworkTests.m */,
+				A972E73A19654B7A00DF5154 /* Supporting Files */,
+			);
+			path = ArcViewFrameworkTests;
+			sourceTree = "<group>";
+		};
+		A972E73A19654B7A00DF5154 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A972E73B19654B7A00DF5154 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A972E72819654B7A00DF5154 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A972E73019654B7A00DF5154 /* ArcViewFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A972E6FF19654B6400DF5154 /* LiveRenderingDemo */ = {
@@ -126,10 +244,13 @@
 				A972E6FC19654B6400DF5154 /* Sources */,
 				A972E6FD19654B6400DF5154 /* Frameworks */,
 				A972E6FE19654B6400DF5154 /* Resources */,
+				A972E74719654B7A00DF5154 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A972E73F19654B7A00DF5154 /* PBXTargetDependency */,
+				A972E74319654B7A00DF5154 /* PBXTargetDependency */,
 			);
 			name = LiveRenderingDemo;
 			productName = LiveRenderingDemo;
@@ -154,6 +275,43 @@
 			productReference = A972E71619654B6400DF5154 /* LiveRenderingDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A972E72A19654B7A00DF5154 /* ArcViewFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A972E74419654B7A00DF5154 /* Build configuration list for PBXNativeTarget "ArcViewFramework" */;
+			buildPhases = (
+				A972E72619654B7A00DF5154 /* Sources */,
+				A972E72719654B7A00DF5154 /* Frameworks */,
+				A972E72819654B7A00DF5154 /* Headers */,
+				A972E72919654B7A00DF5154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcViewFramework;
+			productName = ArcViewFramework;
+			productReference = A972E72B19654B7A00DF5154 /* ArcViewFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A972E73419654B7A00DF5154 /* ArcViewFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A972E74819654B7A00DF5154 /* Build configuration list for PBXNativeTarget "ArcViewFrameworkTests" */;
+			buildPhases = (
+				A972E73119654B7A00DF5154 /* Sources */,
+				A972E73219654B7A00DF5154 /* Frameworks */,
+				A972E73319654B7A00DF5154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A972E73819654B7A00DF5154 /* PBXTargetDependency */,
+				A972E74C19654B7B00DF5154 /* PBXTargetDependency */,
+			);
+			name = ArcViewFrameworkTests;
+			productName = ArcViewFrameworkTests;
+			productReference = A972E73519654B7A00DF5154 /* ArcViewFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,6 +327,13 @@
 					A972E71519654B6400DF5154 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = A972E6FF19654B6400DF5154;
+					};
+					A972E72A19654B7A00DF5154 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A972E73419654B7A00DF5154 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A972E72A19654B7A00DF5154;
 					};
 				};
 			};
@@ -187,6 +352,8 @@
 			targets = (
 				A972E6FF19654B6400DF5154 /* LiveRenderingDemo */,
 				A972E71519654B6400DF5154 /* LiveRenderingDemoTests */,
+				A972E72A19654B7A00DF5154 /* ArcViewFramework */,
+				A972E73419654B7A00DF5154 /* ArcViewFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +369,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A972E71419654B6400DF5154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A972E72919654B7A00DF5154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A972E73319654B7A00DF5154 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,6 +410,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A972E72619654B7A00DF5154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A972E73119654B7A00DF5154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A972E73D19654B7A00DF5154 /* ArcViewFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +432,26 @@
 			isa = PBXTargetDependency;
 			target = A972E6FF19654B6400DF5154 /* LiveRenderingDemo */;
 			targetProxy = A972E71719654B6400DF5154 /* PBXContainerItemProxy */;
+		};
+		A972E73819654B7A00DF5154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A972E72A19654B7A00DF5154 /* ArcViewFramework */;
+			targetProxy = A972E73719654B7A00DF5154 /* PBXContainerItemProxy */;
+		};
+		A972E73F19654B7A00DF5154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A972E72A19654B7A00DF5154 /* ArcViewFramework */;
+			targetProxy = A972E73E19654B7A00DF5154 /* PBXContainerItemProxy */;
+		};
+		A972E74319654B7A00DF5154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A972E72A19654B7A00DF5154 /* ArcViewFramework */;
+			targetProxy = A972E74219654B7A00DF5154 /* PBXContainerItemProxy */;
+		};
+		A972E74C19654B7B00DF5154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A972E72A19654B7A00DF5154 /* ArcViewFramework */;
+			targetProxy = A972E74B19654B7B00DF5154 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -387,6 +603,80 @@
 			};
 			name = Release;
 		};
+		A972E74519654B7A00DF5154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArcViewFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A972E74619654B7A00DF5154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ArcViewFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A972E74919654B7A00DF5154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArcViewFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A972E74A19654B7A00DF5154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArcViewFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,6 +702,22 @@
 			buildConfigurations = (
 				A972E72419654B6400DF5154 /* Debug */,
 				A972E72519654B6400DF5154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A972E74419654B7A00DF5154 /* Build configuration list for PBXNativeTarget "ArcViewFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A972E74519654B7A00DF5154 /* Debug */,
+				A972E74619654B7A00DF5154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A972E74819654B7A00DF5154 /* Build configuration list for PBXNativeTarget "ArcViewFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A972E74919654B7A00DF5154 /* Debug */,
+				A972E74A19654B7A00DF5154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
