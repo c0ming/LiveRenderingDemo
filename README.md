@@ -1,5 +1,5 @@
 Xcode 6 Interface Builder Live Rendering Demo.
-=============
+-------------
 
 ![ScreenShot](https://raw.githubusercontent.com/c0ming/LiveRenderingDemo/master/ScreenShot.png)
 
